@@ -1,0 +1,12 @@
+
+™squid:S1186¨"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(çßŠ¿
+™squid:S1186º"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÒÏÃ
+Esquid:S1199’"-Extract this nested code block into a method.(ÁÙ«®
+esquid:S2259["IA "NullPointerException" could be thrown; "mToastQueue" is nullable here.(€Øßşÿÿÿÿ
+hsquid:S1301‘"KReplace this "switch" statement by "if" statements to increase readability.(ıŞ³‹ùÿÿÿÿ
+™squid:S1186¬"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(»ªò 
+™squid:S1186¤"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(˜ıˆ
+squid:S1186¾"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ğÓÍ·ûÿÿÿÿ
+squid:S1186¶"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¼ãºèşÿÿÿÿ
+hsquid:UnusedPrivateMethod®"BRemove this unused private "getCurrentPowerfulToastRecord" method.(ë®Éº
+Hsquid:S3398æ"$Move this method into "WorkHandler".(ÁÉæ´ùÿÿÿÿ8âñÆÇÄ.

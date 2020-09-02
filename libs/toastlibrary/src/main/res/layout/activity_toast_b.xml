@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dip"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:background="@android:color/darker_gray"
+        android:text="需要验证下在Toast显示过程中取消Toast是否报错"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="10pt" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="testShortTime"
+        android:text="short duration time Toast,大约2s" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="testLongTime"
+        android:text="long duration time Toast,大约3.5s" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="testLongText"
+        android:text="Long Text Toast" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="testMaxCapacity"
+        android:text="已经创建了9个Toast，在多快速点击一次就可以验证" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="testStartOtherActivity"
+        android:text="B 显示Toast的过程中，返回A，检查A是否可以显示Toast" />
+
+</LinearLayout>

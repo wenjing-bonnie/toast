@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dip"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:background="@android:color/darker_gray"
+        android:text="需要验证下在Toast显示过程中取消Toast是否报错"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="10pt" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="testShortTime"
+        android:text="short duration time Toast,大约2s" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="testLongTime"
+        android:text="long duration time Toast,大约3.5s" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="testLongText"
+        android:text="Long Text Toast" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="testMaxCapacity"
+        android:text="验证依次显示Toast，超出25个自动将前面的Toast清空" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="testStartOtherActivity"
+        android:text="A 显示Toast中进入到B，B是否可以显示Toast" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="testDialog"
+        android:text="显示Dialog的时候还能显示Toast" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="testToast"
+        android:text="子线程显示Toast" />
+
+</LinearLayout>
