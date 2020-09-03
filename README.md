@@ -69,6 +69,14 @@ public class PowerfulToastManagerService implements Application.ActivityLifecycl
 }
 ```
 # 该自定义控件使用方法
-   必须在Application中直接调用`Toast.registerToast(this);`就可以。如果不调用该方法，会在调用的时候抛出 `You must call registerToast(Application application) in Application`,其他使用方式同原生Toast的使用。
+## 1.项目增加依赖Gradle
+  ``` 
+dependencies {
+   implementation project(':libs:toastlibrary')
+}
+```
+## 2.Application中注册Toast
+   必须在Application中直接调用`Toast.registerToast(this);`就可以。如果不调用该方法，会在调用的时候抛出 `You must call registerToast(Application application) in Application`,
+## 3.使用方式同原生Toast的使用
    `Toast.makeText(ToastActivity.this, "short duration Toast", Toast.LENGTH_SHORT).show();`
 
